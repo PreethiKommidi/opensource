@@ -1,0 +1,7 @@
+def bill(X, Y):
+    if X>=Y:
+        return "YES"
+    else:
+        return "NO"
+X, Y=map(int, input().split())
+print(bill(X, Y))
